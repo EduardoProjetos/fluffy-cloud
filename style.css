@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.logo {
+    height: 120px;
+}
+
+.h2-border {
+    border-top: 0.04px solid black;
+}

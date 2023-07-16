@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
     <title>Fluffy Cloud</title>
     <link rel="shortcut icon" href="img/icons8-zzz-emoji-16.png" type="image/x-icon">
 </head>
@@ -119,7 +119,7 @@
                 <div class="col">
                     <div class="card">
                         <br>
-                    <img src="img/colchão0007.png" class="card-img-top" alt="Colchao">
+                    <img src="img/colchao005.png" class="card-img-top" alt="Colchao">
                     <div class="card-body">
                         <h5 class="card-title">Colchao</h5>
                         <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis quia quod, fugiat nostrum impedit mollitia, iusto soluta corrupti ea itaque quisquam dicta, repellendus voluptates cum natus nam architecto quo. Magnam!</p>
@@ -134,7 +134,7 @@
                                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                     </div>
                                     <div class="modal-body">
-                                        <img src="img/Colchão-Koln-600x338.jpg" alt="" srcset="">
+                                        <img src="img/colchão0007.png" alt="" srcset="">
                                     </div>
                                     <div class="modal-footer">
                                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
@@ -218,33 +218,78 @@
         <br>
         <hr class="col-11 m-auto">
         <br>
-
-        <div class="col-11 m-auto bg-dark text-bg-dark">
-            <h2 class="text-center">Contato</h2>
-
-        </div>
-
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
     </main>
-
-    <footer>
-
-    </footer>
+    <br> 
+    <footer class="col-11 m-auto bg-dark text-bg-dark">
+        <br>
+        <div class="container">
+        <div class="row">
+        <div class="col-md-4 col-sm-6 footerleft ">
+        <img src="/assets/images/logo.png" alt="">
+        <p>Fluffy Cloud, 10 - Centro, São Paulo - SP</p>
+        <p><i class="fa fa-phone"></i>(11) 98765-4321 </p>
+        <p><i class="fa fa-envelope"></i> gmail.com </p>
+        <p><i class="fa fa-clock-o"></i> Segunda a sexta das 8h às 18h </p>
+        <span style="font-size:.8em;">Desenvolvido por<a href="#"> Softwares Básicos Ltda.</a></span>
+        
+        </div> 
+        <!-- end div -->
+        <div class="col-md-2 col-sm-6 paddingtop-bottom">
+        <h6 class="heading7">LINKS ÚTEIS</h6>
+        <ul class="footer-ul">
+        <li><a href="#">Minha Conta</a></li>
+        <li><a href="#">Meus Pedidos</a></li>
+        <li><a href="#">Termos e Condições</a></li>
+        <li><a href="#">Política de Privacidade</a></li>
+        <li><a href="#">Ajuda</a></li>
+        </ul>
+        </div>
+        <!-- end div -->
+        <div class="col-md-3 col-sm-6 paddingtop-bottom">
+        <h6 class="heading7">Mais Informações</h6>
+        <ul class="footer-ul">
+        <li><a href="#">Sobre Nós</a></li>
+        <li><a href="#">Nossas Lojas</a></li>
+        <li><a href="#">Carreiras</a></li>
+        <li><a href="#">Novidades</a></li>
+        <li><a href="#">Fale conosco</a></li>
+        </ul>
+        </div>
+        <!-- end div -->
+        <div class="col-md-3 col-sm-6 paddingtop-bottom">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <h6 class="heading7">Galeria de Fotos</h6>
+        <!-- Carousel indicators -->
+        <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+        <!-- Wrapper for carousel items -->
+        <div class="carousel-inner">
+        <div class="item active">
+        <img src="{{asset('assets/images/photo (1).jpg')}}" alt="First Slide">
+        </div>
+        <div class="item">
+        <img src="{{asset('assets/images/photo (2).jpg')}}" alt="Second Slide">
+        </div>
+        <div class="item">
+        <img src="{{asset('assets/images/photo (3).jpg')}}" alt="Third Slide">
+        </div>
+        </div>
+        <!-- Carousel controls -->
+        <a class="carousel-control left" href="#myCarousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        <a class="carousel-control right" href="#myCarousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+        </div>
+        </div>
+        </div>
+        </div>
+        <br>
+        </footer>
             <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
 </body>
 </html>
